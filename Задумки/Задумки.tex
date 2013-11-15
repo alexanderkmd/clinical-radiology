@@ -1,0 +1,37 @@
+\documentclass[a4paper,12pt]{report}
+
+\input{packages}		% Подключаемые пакеты
+\input{styles}			% Пользовательские стили
+
+\begin{document}
+
+%\input{names}			% Переопределение именований
+
+%\input{title}			% Титульный лист
+\input{contents}		% Оглавление
+
+%\input{introduction}	% Введение
+\chapter{Физические основы лучевой диагностики} % Глава 1
+\input{technic-intro}
+\input{rg-technic}
+\input{us-technic}
+\input{ct-technic}
+\input{mri-technic}
+
+
+\chapter{Клинические аспекты лучевой диагностики} % Глава 2
+\input{knee}
+\input{chest}
+
+\chapter{Какой метод диагностики нужен вашему пациенту?} % Глава 3
+\input{method-of-choice}
+
+%\input{conclusion}		% Заключение
+%\input{lists}			% Списки таблиц и изображений
+%\input{references}		% Список литературы
+%\input{appendix}		% Приложения
+
+\chapter{Задачи}
+\input{tasks}
+
+\end{document}
